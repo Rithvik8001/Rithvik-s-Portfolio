@@ -75,7 +75,7 @@ export default function ExpandableCardDemo() {
                       <a
                         target="_blank"
                         className="text-semibold border-px group flex items-center gap-x-1 rounded-full border-blue-400 bg-gray-100/40 p-2 px-4 text-gray-700 duration-300 hover:scale-105 hover:bg-slate-200 active:scale-95 dark:bg-gray-800 dark:text-slate-100"
-                        href="https://github.com/RakeshSangem/simply-cook"
+                        href="https://github.com/Rithvik8001/Rithvik-s-Portfolio"
                       >
                         GitHub
                         <svg
