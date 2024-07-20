@@ -50,7 +50,7 @@ export default function ExpandableCardDemo() {
                       <motion.a
                         target="_blank"
                         className="text-semibold hover:shadow-2xl border-px group flex items-center gap-x-1 rounded-full border-blue-400 bg-slate-800 p-2 px-4 text-white duration-300 hover:scale-105 active:scale-95 dark:bg-slate-100 dark:text-slate-900"
-                        href="https://simply-cook.vercel.app/"
+                        href="https://rithvik-portfolio.vercel.app/"
                         whileHover={{
                           y: -5,
                           boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
