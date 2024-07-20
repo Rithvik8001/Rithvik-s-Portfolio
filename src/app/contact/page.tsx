@@ -23,8 +23,9 @@ export default function page() {
           <CardHeader>
             <CardTitle className="text-2xl">Ask me anything</CardTitle>
             <CardDescription className="mt-2 text-lg">
-              Looking to partner or work together? Reach out through the form
-              and I&apos;ll get back to you in the next 48 hours.
+              I'm open to hearing about new opportunities and working together
+              on a project. Feel free to ask your doubts, questions, or just say
+              hi.
             </CardDescription>
           </CardHeader>
           <CardContent>
