@@ -10,12 +10,12 @@ export default function MyStory() {
         complex problems. I would love to have an oppurtunity where i can
         showcase and enchance my skills.
       </p>
-      <p className="text-gray-700 text-xl">
+      {/* <p className="text-gray-700 text-xl">
         Other than my passion for coding, I really love football and i can call
         myself as a football ⚽️ fanatic. I started Watching football when i was
         17 years old,and i fell in love in love with it as I did with coding.
         The club i support is Manchester United,The biggest club in England
-      </p>
+      </p> */}
     </section>
   );
 }
