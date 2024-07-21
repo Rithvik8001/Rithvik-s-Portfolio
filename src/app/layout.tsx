@@ -3,7 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "@/components/ui/toaster"
 
 const inter = DM_Sans({ subsets: ["latin"] });
 
@@ -19,16 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html className="overflow-x-hidden" lang="en">
-      <body
-        className={`${inter.className} min-h-[100dvh] grid grid-rows-[auto_1fr_auto]`}
-      >
+      <body className={`${inter.className} min-h-[100dvh] grid grid-rows-[auto_1fr_auto]`}>
         <Navbar />
         <div className="mt-20">
           {children}
           <Footer />
           <Toaster />
         </div>
-      </body>
+        </body>
     </html>
   );
 }

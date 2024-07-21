@@ -1,11 +1,11 @@
-"use client";
+'use client'
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
-
+ 
 export const HoverEffect = ({
   items,
   className,
@@ -19,9 +19,14 @@ export const HoverEffect = ({
   className?: string;
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
+ 
   return (
-    <div className={cn("grid grid-cols-1 md:grid-cols-2 py-10", className)}>
+    <div
+      className={cn(
+        "grid grid-cols-1 md:grid-cols-2 py-10",
+        className
+      )}
+    >
       {items.map((item, idx) => (
         <Link
           href={item?.link}
@@ -49,19 +54,13 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <div className="flex flex-col sm:flex-row gap-6 sm:text-start justify-center">
-              <div className=" flex justify-center">
-                <Image
-                  width={100}
-                  height={100}
-                  className=""
-                  src={item.image}
-                  alt={item.title}
-                />
-              </div>
-              <div className=" flex flex-col gap-2">
+                <div className=" flex justify-center">
+                    <Image  width={100} height={100} className="" src={item.image} alt={item.title} />
+                </div>
+            <div className=" flex flex-col gap-2">
                 <CardTitle>{item.title}</CardTitle>
                 <CardDescription>{item.description}</CardDescription>
-              </div>
+            </div>
             </div>
           </Card>
         </Link>
@@ -69,7 +68,7 @@ export const HoverEffect = ({
     </div>
   );
 };
-
+ 
 export const Card = ({
   className,
   children,
@@ -98,12 +97,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4
-      className={cn(
-        "text-gray-800 font-bold tracking-wide text-lg mt-4",
-        className
-      )}
-    >
+    <h4 className={cn("text-gray-800 font-bold tracking-wide text-lg mt-4", className)}>
       {children}
     </h4>
   );
@@ -117,7 +111,10 @@ export const CardDescription = ({
 }) => {
   return (
     <p
-      className={cn(" text-gray-700 tracking-wide leading-relaxed", className)}
+      className={cn(
+        " text-gray-700 tracking-wide leading-relaxed",
+        className
+      )}
     >
       {children}
     </p>

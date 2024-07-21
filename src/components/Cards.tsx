@@ -1,13 +1,13 @@
 import { HoverEffect } from "./ui/card-hover-effect";
 import globe from "@/../public/globe.svg";
 import type { StaticImageData } from "next/image";
-
+ 
 export default function Cards() {
   return (
     <div className=" py-10">
-      <div className=" mx-auto">
+        <div className=" mx-auto">
         <HoverEffect items={projects} />
-      </div>
+        </div>
     </div>
   );
 }

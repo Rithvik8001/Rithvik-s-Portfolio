@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-
+ 
 export const BentoGrid = ({
   className,
   children,
@@ -18,7 +18,7 @@ export const BentoGrid = ({
     </div>
   );
 };
-
+ 
 export const BentoGridItem = ({
   className,
   title,
