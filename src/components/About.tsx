@@ -12,7 +12,7 @@ export default function page() {
       <BlurFade delay={0.35} inView>
         <div className="max-w-4xl mx-auto space-y-4 mt-14">
           <p className="text-gray-700 text-xl">
-            Hi, This is Rithvik, I am a Computer Science Graduate and a self
+            Hi,This is Rithvik.I am a Computer Science Graduate and a self
             taught Web Developer. I Specialze in creating web applications,
             leveraging my technical expertise to solve complex problems. I would
             love to have an oppurtunity where i can showcase and enchance my
