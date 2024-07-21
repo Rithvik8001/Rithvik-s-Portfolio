@@ -27,13 +27,13 @@ export default function ExpandableCardDemo() {
                     <div className=" mt-4">
                       <div className="">
                         <h2 className="mb-2 text-xl font-semibold dark:text-slate-200">
-                          Simply Cook
+                          My Portfolio
                         </h2>
                         <p className="text-gray-600 dark:text-[#A5B0B7]">
-                          Recipe finder app which let&apos;s user to find
-                          recipes and check the ingredients. User can get
-                          recipes details from a huge collection of 2.3M
-                          recipes.
+                          This is my portfolio where you can find the details
+                          about me, my experience, skills. The website is
+                          completely responsive and added as many animations as
+                          I can.
                         </p>
                         <div className="mt-4 flex flex-wrap gap-2">
                           <span className="rounded-md border-[0.5px] border-slate-300 bg-slate-300/20 py-1 px-2 text-xs text-gray-600 dark:border-slate-800 dark:bg-[#272B2F] dark:text-[#D4D4D8]">
@@ -43,7 +43,7 @@ export default function ExpandableCardDemo() {
                             React
                           </span>
                           <span className="rounded-md border-[0.5px] border-slate-300 bg-slate-300/20 py-1 px-2 text-xs text-gray-600 dark:border-slate-800 dark:bg-[#272B2F] dark:text-[#D4D4D8]">
-                            JavaScript
+                            Typescript
                           </span>
                           <span className="rounded-md border-[0.5px] border-slate-300 bg-slate-300/20 py-1 px-2 text-xs text-gray-600 dark:border-slate-800 dark:bg-[#272B2F] dark:text-[#D4D4D8]">
                             Tailwind CSS
