@@ -39,51 +39,6 @@ export default function page() {
           </p>
         </div>
       </BlurFade>
-      <BlurFade delay={0.45} inView>
-        <div className="max-w-4xl mx-auto space-y-4 mt-14">
-          <h3 className="font-semibold text-2xl">Lorem Ipsum</h3>
-          <p className="text-gray-700 text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus, debitis saepe quasi reprehenderit qui cumque aliquid,
-            iste officiis voluptate, odit odio quod? Porro iusto commodi
-            quisquam non soluta hic nam. Necessitatibus nam minus iure laborum
-            suscipit, id facilis blanditiis consequuntur deserunt maiores soluta
-            repellat rerum mollitia autem dolorum delectus porro natus
-            recusandae ex labore eligendi earum voluptas dolore? Numquam,
-            doloribus?
-          </p>
-        </div>
-      </BlurFade>
-      <BlurFade delay={0.55} inView>
-        <div className="max-w-4xl mx-auto space-y-4 mt-14">
-          <h3 className="font-semibold text-2xl">Lorem Ipsum</h3>
-          <p className="text-gray-700 text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus, debitis saepe quasi reprehenderit qui cumque aliquid,
-            iste officiis voluptate, odit odio quod? Porro iusto commodi
-            quisquam non soluta hic nam. Necessitatibus nam minus iure laborum
-            suscipit, id facilis blanditiis consequuntur deserunt maiores soluta
-            repellat rerum mollitia autem dolorum delectus porro natus
-            recusandae ex labore eligendi earum voluptas dolore? Numquam,
-            doloribus?
-          </p>
-        </div>
-      </BlurFade>
-      <BlurFade delay={0.65} inView>
-        <div className="max-w-4xl mx-auto space-y-4 mt-14">
-          <h3 className="font-semibold text-2xl">Lorem Ipsum</h3>
-          <p className="text-gray-700 text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus, debitis saepe quasi reprehenderit qui cumque aliquid,
-            iste officiis voluptate, odit odio quod? Porro iusto commodi
-            quisquam non soluta hic nam. Necessitatibus nam minus iure laborum
-            suscipit, id facilis blanditiis consequuntur deserunt maiores soluta
-            repellat rerum mollitia autem dolorum delectus porro natus
-            recusandae ex labore eligendi earum voluptas dolore? Numquam,
-            doloribus?
-          </p>
-        </div>
-      </BlurFade>
     </section>
   );
 }
