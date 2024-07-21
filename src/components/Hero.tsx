@@ -55,7 +55,10 @@ export default function Hero() {
       </section>
       <div className="flex mt-8 lg:items-center justify-center gap-6 lg:gap-4 flex-col">
         <BlurFade delay={0.5} inView>
-          <Button target="_blank" path="/projects">
+          <Button
+            target="_blank"
+            path="https://drive.google.com/file/d/1CLCT-tG7PgJpUPI0iQZmdQyFVvrPnagl/view?usp=drive_link"
+          >
             Resume
           </Button>
         </BlurFade>
