@@ -17,7 +17,7 @@ export default function Education() {
             <h4 className="text-gray-600">
               Wichita State University, Aug’22 to Dec’23
             </h4>
-            <h6 className="text-gray-600">Cgpa: 3.9/4.0</h6>
+            <h6 className="text-gray-600">Cgpa: 3.9 / 4.0</h6>
           </div>
         </BlurFade>
         <BlurFade delay={0.8} inView>
@@ -26,7 +26,7 @@ export default function Education() {
             <h4 className="text-gray-600">
               Sastra Deemed to be University, June’17 to May’21
             </h4>
-            <h6 className="text-gray-600">Cgpa: 7.0 7.0</h6>
+            <h6 className="text-gray-600">Cgpa: 7.0</h6>
           </div>
         </BlurFade>
       </div>
