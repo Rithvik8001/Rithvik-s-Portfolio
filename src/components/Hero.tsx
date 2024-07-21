@@ -67,7 +67,7 @@ export default function Hero() {
             >
               <FaLinkedin size={40} />
             </Link>
-            <Link target="_blank" href="">
+            <Link target="_blank" href="https://github.com/Rithvik8001">
               <FaGithub size={40} />
             </Link>
           </div>
