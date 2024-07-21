@@ -61,7 +61,10 @@ export default function Hero() {
         </BlurFade>
         <BlurFade delay={0.25} inView>
           <div className="flex gap-5 mt-4">
-            <Link target="_blank" href="">
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/rithvik-pallamreddy-9bb62b249/"
+            >
               <FaLinkedin size={40} />
             </Link>
             <Link target="_blank" href="">
