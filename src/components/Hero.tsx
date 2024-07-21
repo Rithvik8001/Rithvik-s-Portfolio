@@ -57,7 +57,7 @@ export default function Hero() {
         <BlurFade delay={0.5} inView>
           <Button
             target="_blank"
-            path="https://drive.google.com/file/d/1CLCT-tG7PgJpUPI0iQZmdQyFVvrPnagl/view?usp=drive_link"
+            path="https://drive.google.com/file/d/1CLCT-tG7PgJpUPI0iQZmdQyFVvrPnagl/view?usp=sharing"
           >
             Resume
           </Button>
