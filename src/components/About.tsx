@@ -11,7 +11,6 @@ export default function page() {
       </BlurFade>
       <BlurFade delay={0.25} inView>
         <div className="max-w-4xl mx-auto space-y-4 mt-14">
-          <h3 className="font-semibold text-2xl">Lorem Ipsum</h3>
           <p className="text-gray-700 text-xl">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Repellendus, debitis saepe quasi reprehenderit qui cumque aliquid,
@@ -26,7 +25,6 @@ export default function page() {
       </BlurFade>
       <BlurFade delay={0.35} inView>
         <div className="max-w-4xl mx-auto space-y-4 mt-14">
-          <h3 className="font-semibold text-2xl">Lorem Ipsum</h3>
           <p className="text-gray-700 text-xl">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Repellendus, debitis saepe quasi reprehenderit qui cumque aliquid,
