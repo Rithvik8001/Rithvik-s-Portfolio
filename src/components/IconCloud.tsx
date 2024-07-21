@@ -3,16 +3,16 @@ import IconCloud from "@/components/magicui/icon-cloud";
 const slugs = [
   "react",
   "nextdotjs",
-  'visualstudiocode',
-  'github',
-  'typescript',
+  "visualstudiocode",
+  "github",
+  "typescript",
   "html5",
-  'css3',
-  'javascript',
-  'tailwindcss',
-  'git',
-  'postgresql',
-  'python'
+  "css3",
+  "javascript",
+  "tailwindcss",
+  "git",
+  "postgresql",
+  "python",
 ];
 
 export function IconCloudDemo() {
