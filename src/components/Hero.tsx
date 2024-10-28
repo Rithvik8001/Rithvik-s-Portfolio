@@ -46,8 +46,7 @@ export default function Hero() {
             </div>
             <BlurFade delay={0.25} inView>
               <p className="text-gray-500 max-w-2xl text-lg mt-4 lg:text-center">
-                Passionate Frontend Developer, Who has an eye for design and a
-                mind for development. I love building things and helping people.{" "}
+                Passionate frontend developer with an eye for design and a mind for development. I love building things and helping people.{" "}
               </p>
             </BlurFade>
           </div>
