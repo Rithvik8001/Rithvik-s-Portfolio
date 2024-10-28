@@ -28,24 +28,23 @@ export default function Experience() {
                 </span>
                 <ul className="flex text-xl mt-5 flex-col gap-3">
                   <li className="flex gap-5">
-                    <FaCheck size={20} fill="#6e06f2" /> Played a key role in
-                    bug fixation and enhancement of user experience of client
-                    website.
+                    <FaCheck size={20} fill="#6e06f2" /> Developed and maintained web applications using React Js.Collaborated with the design team to implement responsive and
+user-friendly interfaces.
                   </li>
                   <li className="flex gap-5">
                     <FaCheck size={20} fill="#6e06f2" />
-                    Part of the team which developed login functionality using
-                    mobile number with otp authentication.
+                     Implemented form validation and error handling to improve user
+experience
                   </li>
                   <li className="flex gap-5">
                     <FaCheck size={20} fill="#6e06f2" />
-                    Reduced transaction failure of payment gateway by creating
-                    unique token identifiers for every transaction.
+                    Optimized web application performance by implementing lazy
+loading, code splitting, and minimizing unnecessary re-renders.
                   </li>
                   <li className="flex gap-5">
                     <FaCheck size={20} fill="#6e06f2" />
-                    Conceived and built optimized landing pages in HTML and CSS
-                    for integration and cross browser compatibility
+                    Contributed to improving the website's SEO by ensuring clean and
+semantic HTML markup and optimizing page load speeds.
                   </li>
                 </ul>
               </div>
@@ -68,9 +67,9 @@ export default function Experience() {
                 <span className="text-gray-700">Intern, Jan’21 to Apr’21</span>
                 <ul className="flex mt-5 text-xl flex-col gap-3">
                   <li className="flex gap-5">
-                    <FaCheck size={20} fill="#6e06f2" /> Developed User
-                    Interfaces using Html, Css, Javascript. Used Ux tools like
-                    Figma to design the websites.
+                    <FaCheck size={20} fill="#6e06f2" />Assisted in developing responsive web pages using HTML, CSS,
+and JavaScript, ensuring compatibility across various devices and
+browsers.
                   </li>
                   <li className="flex gap-5">
                     <FaCheck size={20} fill="#6e06f2" />
@@ -78,13 +77,14 @@ export default function Experience() {
                   </li>
                   <li className="flex gap-5">
                     <FaCheck size={20} fill="#6e06f2" />
-                    Documented project changes in team manuals for future
-                    reference and use.
+                    Documented codebase changes and new features, creating and
+updating README files, API documentation, for teams use.
                   </li>
                   <li className="flex gap-5">
                     <FaCheck size={20} fill="#6e06f2" />
-                    Developed user friendly web forms with validation and error
-                    handling.
+                    Participated in the integration of third-party libraries and
+tools, such as charting libraries, form validation tools, and
+authentication services, to extend application functionality.
                   </li>
                 </ul>
               </div>
