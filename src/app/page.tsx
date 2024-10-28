@@ -16,11 +16,7 @@ export default function Home() {
           </h3>
           <div className="max-w-4xl mx-auto space-y-4 mt-14">
             <p className="text-gray-700 text-xl">
-              Hi,This is Rithvik. I am a Computer Science Graduate and a self
-              taught Web Developer. I Specialze in creating web applications,
-              leveraging my technical expertise to solve complex problems. I
-              would love to have an oppurtunity where i can showcase and
-              enchance my skills.
+             Hi, this is Rithvik. I am a Computer Science graduate and a self-taught web developer specializing in creating web applications. I leverage my technical expertise to solve complex problems and would love the opportunity to showcase and enhance my skills.
             </p>
           </div>
         </BlurFade>
